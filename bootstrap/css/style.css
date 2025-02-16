@@ -1,0 +1,57 @@
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00bcd4;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header nav .logo img {
+    height: 50px;
+}
+
+header nav .title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav .menu a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .admin-info {
+    display: flex;
+    align-items: center;
+}
+
+header nav .admin-info span {
+    margin-right: 10px;
+}
+
+header nav .admin-info img {
+    border-radius: 50%;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #777;
+}
